@@ -66,7 +66,7 @@ print("3. FOV OK")
 
 -- Aimbot
 local aimbot = true
-local fovRadius = 200
+local fovRadius = 90
 local smooth = 0.3
 
 RunService.Heartbeat:Connect(function()
