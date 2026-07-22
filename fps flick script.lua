@@ -58,7 +58,7 @@ corner.CornerRadius = UDim.new(1, 0)
 corner.Parent = circle
 
 RunService.RenderStepped:Connect(function()
-    local c = camera.ViewportSize / 2.4
+    local c = camera.ViewportSize / 2.1
     circle.Position = UDim2.new(0, c.X - 200, 0, c.Y - 200)
 end)
 
