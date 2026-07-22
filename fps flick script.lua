@@ -43,7 +43,7 @@ fovGui.Parent = game:GetService("CoreGui")
 fovGui.ResetOnSpawn = false
 
 local circle = Instance.new("Frame")
-circle.Size = UDim2.new(0, 400, 0, 400)
+circle.Size = UDim2.new(0, 90, 0, 90)
 circle.BackgroundTransparency = 1
 circle.Parent = fovGui
 
